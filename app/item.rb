@@ -1,3 +1,4 @@
+require 'pry'
 class Item
   attr_accessor :name, :price
 
@@ -5,4 +6,4 @@ class Item
     @name = name
     @price = price
   end
-end
+end 
